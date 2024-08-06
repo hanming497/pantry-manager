@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pantry Inventory Manager
+
+## Overview
+This Next.js application provides a simple and intuitive interface for managing a pantry inventory. Users can add, remove, and search for items in their inventory.
+
+## Features
+- Add new items to the inventory
+- Remove items or decrease their quantity
+- Search functionality to quickly find items
+- Real-time updates with Firebase Firestore backend
+
+## Technology Stack
+- Next.js
+- React
+- Material-UI for styling
+- Firebase Firestore for data storage
 
 ## Getting Started
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up your Firebase configuration
+4. Run the development server: `npm run dev`
 
-First, run the development server:
+## Usage
+- Click "Add New Item" to add items to your inventory
+- Use the search bar to filter items
+- Click "Remove" to decrease an item's quantity or remove it entirely
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Screenshots
+![alt text](image.png)
+![alt text](image-1.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Note
+This application uses client-side rendering and optimistic updates for a smooth user experience.
